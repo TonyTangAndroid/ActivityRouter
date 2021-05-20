@@ -2,7 +2,9 @@
 
 buildscript {
     repositories {
+        mavenCentral()
         google()
+        //noinspection JcenterRepositoryObsolete
         jcenter()
     }
     dependencies {
@@ -12,7 +14,9 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenCentral()
         google()
+        //noinspection JcenterRepositoryObsolete
         jcenter()
     }
 }
